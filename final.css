@@ -1,0 +1,72 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(images/priroda-derevya-derevo-listya-4477.jpeg);
+}
+.container .head .head__h1 {
+  font-size: 45px;
+  color: #15e2e2;
+  text-shadow: 0 0 20px rgba(27, 81, 197, 0.69);
+}
+.container .form {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+.container .form .form1 {
+  background-color: #f0f5b1;
+  width: 400px;
+  height: 300px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
+  padding-top: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container .form .form1 .form1__text {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(18, 233, 29, 0.89);
+}
+.container .form .form1 #form1__email {
+  margin-left: 30px;
+  width: 250px;
+  height: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  border-radius: 18px;
+  padding-left: 15px;
+}
+.container .form .form1 #form1__password {
+  margin-left: 30px;
+  width: 250px;
+  height: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  border-radius: 18px;
+  padding-left: 15px;
+}
+.container .form .form1 #form1__btn {
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color: #0c5a0c;
+  border: none;
+  height: 30px;
+  width: 110px;
+  border-radius: 15px;
+  color: #f3f3f3;
+  font-size: 16px;
+  cursor: pointer;
+}
+.container .form .form1 .form1__reg {
+  cursor: pointer;
+  color: #0c5a0c;
+  margin-left: 105px;
+}/*# sourceMappingURL=final.css.map */
